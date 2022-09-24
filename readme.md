@@ -1,4 +1,4 @@
-# Project 1
+# Project 1: Street Style Landing Page
 
 ### Name:
 
@@ -21,5 +21,3 @@
 ### Screenshots:-
 
 ![Project1](./madebyanshul.png)
-
-## [Live Link]()
