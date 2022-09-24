@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  border: 0;
+}
+body {
+  margin: 0;
+  border: 0;
+  height: 100vh;
+  outline: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/*  navigation bar */
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  width: auto;
+  align-items: baseline;
+  margin: 40px auto;
+  justify-content: space-around;
+}
+
+.list {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
+  flex-direction: row;
+  list-style-type: none;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  column-gap: 40px;
+}
+
+/*  need to look for half under line */
+.list-item:hover {
+  font-size: 20px;
+  transition: all 0.5s;
+}
+/* 
+Important to bring something like underline  */
+.list-item {
+  display: flex;
+  position: relative;
+  right: 40px;
+}
+
+.list-item:hover::after {
+  content: "";
+  position: absolute;
+
+  width: 70%;
+  height: 3px;
+  top: 25px;
+  left: 20%;
+  bottom: 0px;
+  transition: all 1s;
+
+  background-color: #000000;
+}
+
+.list-item:hover::after {
+  content: "";
+  position: absolute;
+
+  width: 70%;
+  height: 3px;
+  top: 25px;
+  left: 20%;
+  bottom: 0px;
+  transition: all 1s;
+
+  background-color: #000000;
+}
+
+/*  to swap  unodered list elements */
+.list-item:nth-child(1) {
+  display: flex;
+  order: -1;
+}
+.list-item:nth-child(3) {
+  display: flex;
+  order: -1;
+}
+/* Logo */
+
+section nav div img {
+  display: flex;
+  flex: 1;
+  height: 70%;
+  width: 70%;
+}
+
+/* 
+search and botton thing */
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  align-items: center;
+}
+.search-icon svg {
+  display: flex;
+  flex: 0.5;
+  height: 20px;
+  width: 20px;
+}
+.nav-button {
+  display: block;
+
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #636e72;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  width: 120px;
+  height: 30px;
+  font-size: 17px;
+  align-items: center;
+  align-text: center;
+}
+
+/* Main section */
+
+/* left column */
+.hero-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 85vh;
+  margin: 0;
+}
+.square img {
+  position: absolute;
+  height: 320px;
+  width: 320px;
+  left: 290px;
+  top: 450px;
+  z-index: -1;
+}
+.star img {
+  position: absolute;
+  height: auto;
+  width: 50px;
+  top: 200px;
+  left: 1350px;
+}
+
+.globe {
+  position: absolute;
+  height: auto;
+  width: auto;
+  top: 150px;
+  left: 770px;
+}
+
+img[src="/assets/Image.png"] {
+  position: absolute;
+  height: 70%;
+  width: 28%;
+  left: 125px;
+  top: 190px;
+  overflow: hidden;
+}
+/* left column complete */
+
+/*  Right column starts */
+.hero-container-right {
+  width: 100%;
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 80px;
+  align-items: center;
+}
+
+.hero-container-right h1 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 55px;
+  font-display: swap;
+}
+
+.hero-container-right p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+
+  color: #747d8c;
+  text-align: center;
+}
+
+.button-email {
+  background-color: #ffffff;
+  padding: 5px 40px;
+  color: #747d8c;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  font-display: swap;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+.button-join {
+  background-color: #000000;
+  color: #ffffff;
+  margin-left: 20px;
+  padding: 5px 30px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  font-display: swap;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+/* social links */
+.contact-heading {
+  position: relative;
+  bottom: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 20px;
+  color: #747d8c;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.icons {
+  position: relative;
+  bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
