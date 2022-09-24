@@ -10,11 +10,11 @@
 
 - _Used Pseudo-classes such as :hover , :after and nth-child() etc._
 
-- _learned about the more of positions properties and others aswell._
+- _Learned about the more of positions properties and others aswell._
 
 - _Used and learned the basic "order" property._
 
-- _last but not the least, also learned basic flex box._
+- _Last but not the least, also learned basic flex box._
 
 ---
 
