@@ -47,6 +47,7 @@ Important to bring something like underline  */
   display: flex;
   position: relative;
   right: 40px;
+  cursor: pointer;
 }
 
 .list-item:hover::after {
