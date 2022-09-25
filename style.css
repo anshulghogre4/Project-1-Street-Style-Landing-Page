@@ -103,12 +103,14 @@ search and botton thing */
   flex-direction: row;
   column-gap: 10px;
   align-items: center;
+  
 }
 .search-icon svg {
   display: flex;
   flex: 0.5;
   height: 20px;
   width: 20px;
+  cursor: pointer;
 }
 .nav-button {
   display: block;
@@ -123,6 +125,7 @@ search and botton thing */
   font-size: 17px;
   align-items: center;
   align-text: center;
+  cursor: pointer;
 }
 
 /* Main section */
@@ -210,6 +213,7 @@ img[src="/assets/Image.png"] {
   font-display: swap;
   border: 2px solid #000000;
   border-radius: 10px;
+  cursor: pointer;
 }
 .button-join {
   background-color: #000000;
@@ -223,6 +227,7 @@ img[src="/assets/Image.png"] {
   font-display: swap;
   border: 2px solid #000000;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 /* social links */
@@ -237,6 +242,7 @@ img[src="/assets/Image.png"] {
   color: #747d8c;
   text-align: center;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 .icons {
   position: relative;
